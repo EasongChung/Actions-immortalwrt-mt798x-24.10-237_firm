@@ -8,7 +8,7 @@
 #include "mt7981.dtsi"
 
 / {
-	model = "BT-R320";
+	model = "BT R320";
 	compatible = "bt,r320-emmc", "mediatek,mt7981";
 
 	aliases {

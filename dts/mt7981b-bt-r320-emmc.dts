@@ -62,6 +62,18 @@
                         label = "blue:status";
                         gpios = <&pio 12 GPIO_ACTIVE_LOW>;
 		};
+				led-3 {
+					function = LED_FUNCTION_WLAN_2GHZ;
+					color = <LED_COLOR_ID_GREEN>;
+					gpios = <&pio 34 GPIO_ACTIVE_LOW>;
+				};
+		
+				led-4 {
+					function = LED_FUNCTION_WLAN_5GHZ;
+					color = <LED_COLOR_ID_GREEN>;
+					gpios = <&pio 35 GPIO_ACTIVE_LOW>;
+				};
+
 	};
 };
 

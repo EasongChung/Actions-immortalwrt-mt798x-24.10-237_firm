@@ -169,7 +169,7 @@ jobs:
           cd openwrt
           make defconfig
           #cp -f "$CONFIG_SOURCE" "defconfig.config"
-          cp -f "defconfig.config" "$GITHUB_WORKSPACE/defconfig.config"
+          cp -f "defconfig/mt7981-ax3000.config" "$GITHUB_WORKSPACE/defconfig/mt7981-ax3000.config"
           echo "已复制$CONFIG_SOURCE到项目根目录的defconfig.config"
 
           make download -j8

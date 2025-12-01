@@ -11,7 +11,7 @@
 #rm -rf feeds/packages/lang/golang
 
 # 移除 Ruby, Docker 等
-rm -rf feeds/packages/lang/ruby
+#rm -rf feeds/packages/lang/ruby
 rm -rf feeds/packages/utils/docker
 rm -rf feeds/packages/utils/dockerd
 rm -rf feeds/packages/utils/containerd

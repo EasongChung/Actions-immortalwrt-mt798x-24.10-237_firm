@@ -10,15 +10,16 @@
 # See /LICENSE for more information.
 #
 
-name: Build bt-r320 Immortalwrt 24.10-6.6
+name: Build bt-r320 Immortalwrt 25.12
 
 on:
   repository_dispatch:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/EasongChung/immortalwrt-mt798x-6.6
-  REPO_BRANCH: openwrt-24.10-6.6
+  #REPO_URL: https://github.com/EasongChung/immortalwrt-mt798x-6.6
+  REPO_URL: https://github.com/immortalwrt/immortalwrt/tree/openwrt-25.12
+  REPO_BRANCH: openwrt-25.12
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: bt-r320.config
   DIY_P1_SH: diy-part1.sh

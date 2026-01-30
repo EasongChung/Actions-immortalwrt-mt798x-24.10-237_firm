@@ -58,5 +58,5 @@ sed -i 's|IMG_PREFIX:=|IMG_PREFIX:=$(shell TZ="Asia/Shanghai" date +"%Y%m%d")-24
 # make menuconfig
 
 # compile and build
-make download -j8
-make -j$(nproc)
+# make download -j8
+# make -j$(nproc)
